@@ -20,11 +20,9 @@ export default function AddFileComp() {
       setAddFileOpen(false)
     }, 1500);
   }, [succesfulUpload])
-
   const sendFileFunc = (e) => {
     const formData = new FormData()
     formData.append("file", file[0])
-    // https://bank-training-uz.herokuapp.com/api/getAll/1
     try {
       axios.post(`${process.env.REACT_APP_API_KEY}api/upload`,
         formData,
