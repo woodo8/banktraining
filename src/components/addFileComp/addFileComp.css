@@ -1,0 +1,68 @@
+.addActive {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 30;
+}
+
+.addActive .content {
+    background-color: white;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.addActive .relative {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.addActive .closeIcon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.addFileWrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 18px;
+    background-color: beige;
+}
+
+.sendFile {
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #34438e;
+    color: white;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+@media (max-width:1000px) {
+    .addActive .content {
+        width: 80%;
+    }
+    .addFileWrapper {
+        width: 90%;
+    }
+    
+    .sendFile {
+        width: 90%;
+    }
+}

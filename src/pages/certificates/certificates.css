@@ -1,0 +1,84 @@
+.certificates .callUs {
+    margin-top: 0 !important;
+}
+
+.certificates {
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.certificates .mainComp {
+    height: 100%;
+}
+
+.certificates .searchInput {
+    margin-right: 20px;
+    border-radius: 18px;
+    border: 1px solid #818385;
+    outline: none;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.certificates .errorBlock {
+    color: red;
+    margin-top: 50px;
+
+}
+
+.certificates .errorBlock p {
+    font-size: 24px;
+}
+
+.certificates .errorBlock .mainIcon {
+    font-size: 150px;
+}
+
+.certificates #my-pdf {
+    /* height: 80vh !important;
+    aspect-ratio: 16/9 !important;
+    width: auto !important; */
+    height: auto !important;
+    width: auto !important;
+    height: 80vh !important;
+    aspect-ratio: 16/11;
+}
+
+.certificates #my-pdf canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media (max-width:1200px) {
+    .certificates #my-pdf {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 16/10 !important;
+    }
+}
+
+.searchInput {
+    width: 100%;
+    margin-right: 20px;
+    border: 2px solid #34438e !important;
+    outline: none;
+    padding: 15px !important;
+}
+
+@media (max-width:900px) {
+    .certificatesUser .navbar {
+        height: 80px;
+        display: flex !important;
+        align-items: center !important;
+        padding: 0 100px;
+    }
+}
+@media (max-width:600px) {
+    .certificatesUser .navbar {
+        padding: 0 20px;
+    }
+    .downloadUser{
+        padding: 8px 10px !important;
+        font-size: 14px !important;
+    }
+}

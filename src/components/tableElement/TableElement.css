@@ -1,0 +1,19 @@
+.tableInput {
+    max-width: 150px;
+    border: none;
+    border-bottom: 2px solid #34438e;
+    outline: none;
+}
+
+.td-input p {
+    width: 150px !important;
+}
+
+.tableTextArea {
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 150px;
+    border: none;
+    border-bottom: 2px solid #34438e;
+    outline: none;
+}

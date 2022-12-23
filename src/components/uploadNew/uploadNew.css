@@ -1,0 +1,24 @@
+.uploadNew label {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.uploadNew input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 16px;
+    outline: none;
+    border: 2px solid #34438e;
+}
+
+.uploadNew textarea {
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    padding: 10px;
+    border-radius: 16px;
+    outline: none;
+    border: 2px solid #34438e;
+    min-height: 150px;
+}

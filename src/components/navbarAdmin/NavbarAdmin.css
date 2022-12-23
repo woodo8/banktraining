@@ -1,0 +1,93 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center !important;
+    padding: 0 100px;
+    /* border-bottom: 1px solid #34438e; */
+    box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.5);
+    z-index: 99 !important;
+    background-color: rgb(237, 236, 247);
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    color: #34438e;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.navbar ul li:hover {
+    color: #0026e1;
+}
+
+.navbarMobile {
+    display: none !important;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media (max-width:900px) {
+    .navbar {
+        display: none !important
+    }
+
+    .navbarMobile {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 99 !important;
+        padding: 0px 100px;
+        display: flex !important;
+        align-items: center !important;
+        height: 80px !important;
+    }
+
+    .mobileMenu {
+        display: block;
+        width: 300px;
+        background-color: #34438e;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        padding: 20px;
+        color: white;
+        transition: all 0.3s linear;
+    }
+
+    .mobileMenuActiveNone {
+        left: -100%;
+    }
+
+    .mobileMenuActive {
+        left: 0;
+    }
+
+    .mobileMenu ul {
+        margin-top: 30px;
+    }
+
+    .mobileMenu ul li {
+        margin: 15px 0;
+    }
+
+    .mobileMenu .mr-10 svg{
+        margin-right: 10px !important;
+    }
+
+}
+
+@media (max-width:600px) {
+    .navbarMobile {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,9 @@
+.scroll-to-top {
+    border-radius: 50% !important;
+    /* padding: 15px; */
+    height: 50px !important;
+    width: 50px !important;
+}
+.scroll-to-top svg {
+    color: blue !important;
+}

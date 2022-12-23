@@ -1,0 +1,58 @@
+export const certData = [
+  {
+    id: 1,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 2,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 3,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 4,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 5,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 6,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 7,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+  {
+    id: 8,
+    name: "James Bond",
+    course: "Carving",
+    startDate: "12-07-2022",
+    endDate: "12-09-2022",
+  },
+];

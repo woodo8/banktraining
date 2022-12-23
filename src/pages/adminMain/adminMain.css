@@ -1,0 +1,110 @@
+.mainComp {
+    padding: 80px 100px 80px;
+    background-color: rgb(237, 236, 247);
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+
+@media (max-width:600px) {
+    .mainComp {
+        padding: 80px 20px;
+    }
+}
+
+.whiteCloud {
+    border-radius: 18px !important;
+    background-color: white !important;
+}
+
+.MuiPaper-root {
+    background-color: transparent !important;
+}
+
+.statItem {
+    border-left: 1px solid #34438e;
+}
+
+.statItem:first-child {
+    border-left: none;
+}
+
+@media (max-width:910px) {
+    .statItem {
+        border: none !important;
+        padding: 20px 0 !important;
+    }
+
+}
+
+.statIcons {
+    font-size: 60px !important;
+    margin-right: 20px;
+}
+
+.statItem .title {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #34438e;
+}
+
+.statItem .content {
+    font-size: 18px;
+}
+
+.mainComp .table .thgrid {
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+
+.manageIcons {
+    font-size: 28px !important;
+    font-weight: 800;
+    background-color: black;
+    padding: 5px;
+    transition: all 0.2s linear;
+    margin-right: 5px !important;
+}
+.doneAnim{
+    animation: doneAnim 1s linear infinite;
+}
+@keyframes doneAnim {
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.manageIcons:hover {
+    scale: 1.1;
+    transition: all 0.2s linear;
+}
+
+.mainComp .edit {
+    background-color: rgb(102, 220, 102);
+    color: white;
+}
+
+
+
+.mainComp .delete {
+    background-color: rgb(255, 85, 85);
+    color: white;
+}
+
+.mainComp .refresh {
+    background-color: #34438e;
+    color: white;
+}
+
+.mainComp .choose {
+    background-color: rgb(249, 58, 169);
+    color: white;
+}
+
+.mainComp .MuiPaper-root {
+    box-shadow: none !important;
+}
