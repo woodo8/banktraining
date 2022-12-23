@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-// import Loader from "./components/loader/loader";
 import { StateContext } from "./context/context";
 
 import AdminMain from "./pages/adminMain/adminMain";
