@@ -9,4 +9,16 @@ Web application for one of the local institutions in Uzbekistan
   
 - User page to find and download their certifications of completion in the certain course, offered by the institution 
 
-## demo : http://banktraining.uz/
+## demo : 
+http://banktraining.uz/
+
+### Stack: 
+Frontend:
+    - Material UI
+    - React (with Context api)
+    - i18next (for page translation)
+    
+Backend;
+    - Java 
+    - Spring
+    (as far as i know)))
