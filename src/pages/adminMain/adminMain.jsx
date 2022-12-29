@@ -37,7 +37,6 @@ export default function AdminMain() {
   };
 
   useEffect(() => {
-    // console.log(startDate?.toLocaleDateString('en-US'))
     try {
       startDate && axios.get(`${process.env.REACT_APP_API_KEY}api/getAll/`, {
         headers: {
