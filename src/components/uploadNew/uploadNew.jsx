@@ -7,41 +7,13 @@ import refresh from '../../api/refresh';
 
 export default function UploadNew() {
     const { setUploadNew, loggedIn, setloginToggle, loginToggle } = useContext(StateContext);
-
     const [name, setName] = useState("")
     const [certID, setCertID] = useState("")
     const [error, seterror] = useState("")
     const [number, setNumber] = useState("")
     const sendData = () => {
-        // const formData = new FormData()
-
-        // formData.append("name", name)
-        // formData.append("surname", surname)
-        // formData.append("course", course)
-        // formData.append("certificateID", certID)
-        // formData.append("number", "+1")
-        // axios.put(`${process.env.REACT_APP_API_KEY}api/update/${id}`, {
-        //     name: name,
-        //     surname: surname,
-        //     course: courseName,
-        //     number: item.number,
-        //     certificateID: id,
-        //   }, {
-        //     headers: {
-        //       Authorization: `Bearer ${loggedIn}`
-        //     }
-        //   }).then(res => {
-        //     console.log(res)
-        //     setloginToggle(!loginToggle)
-        //   }).catch(err => {
-        //     console.log(err)
-        //     refresh(err.response.status, err.response.statusText)
-        //   })
-        // } catch (error) {
-        //   console.log(error)
-        // }
         try {
-            name && certID && number ? axios.post("${process.env.REACT_APP_API_KEY}api/save",
+            name && certID && number ? axios.post(`${process.env.REACT_APP_API_KEY}api/save`,
                 {
                     name: name,
                     certificateID: certID,

@@ -112,8 +112,9 @@ export default function Homepage() {
                   <div>
                     <h1>
                       {counterOn ?
-                        <CountUp duration={1} end={55} delay={0} /> : 0
-                      }+
+                        <CountUp duration={1} end={55} /> : 0
+                      }
+                      +
                     </h1>
                     <p>{t("s-statistics-courses")}</p>
                   </div></Fade>
@@ -124,8 +125,9 @@ export default function Homepage() {
                   <div>
                     <h1>
                       {counterOn ?
-                        <CountUp duration={1} end={1250} delay={0} /> : 0
-                      }+
+                        <CountUp duration={1} end={1250} /> : 0
+                      }
+                      +
                     </h1>
                     <p>{t("s-statistics-students")}</p>
                   </div></Fade>
@@ -136,8 +138,9 @@ export default function Homepage() {
                   <div>
                     <h1>
                       {counterOn ?
-                        <CountUp duration={1} end={43} delay={0} /> : 0
-                      }+
+                        <CountUp duration={1} end={43} /> : 0
+                      }
+                      +
                     </h1>
                     <p>{t("s-statistics-professionals")}</p>
                   </div></Fade>
@@ -148,8 +151,9 @@ export default function Homepage() {
                   <div>
                     <h1>
                       {counterOn ?
-                        <CountUp duration={1} end={15} delay={0} /> : 0
-                      }+
+                        <CountUp duration={1} end={15} /> : 0
+                      }
+                      +
                     </h1>
                     <p>{t("s-statistics-partners")}</p>
                   </div></Fade>
@@ -176,13 +180,12 @@ export default function Homepage() {
                   {t("s-courses-famcourses")}
                 </Fade>
               </p>
-              {/* <button className="callUs">Bo kurslar</button> */}
             </div>
           </div>
           <Grid container className="courses-main">
             <Grid className="courseItem" item xs={12} sm={6} md={3} >
               <div className="w-100 courseImg">
-                <img className="w-100 " src={Course1} alt="..." />
+                <img className="w-100" src="https://treasurytoday.com/-/media/images/insight-and-analysis/short-reads/2019-01-24-ti-01__financial-graph-on-technology-abstract-background-755847970__1920x1080.jpg" alt="..." />
                 <div className="imgHover">
                   <AnchorLink className="main" href='#contact'><button className="callUs">{t("batafsil")}</button></AnchorLink>
                 </div>
@@ -194,7 +197,7 @@ export default function Homepage() {
             </Grid>
             <Grid className="courseItem" item xs={12} sm={6} md={3} >
               <div className="w-100 courseImg">
-                <img className="w-100 " src={Course2} alt="..." />
+                <img className="w-100" src="https://www.infosysconsultinginsights.com/wp-content/uploads/2020/05/Technology-Risk-1.jpg" alt="..." />
                 <div className="imgHover">
                   <AnchorLink className="main" href='#contact'><button className="callUs">{t("batafsil")}</button></AnchorLink>
                 </div>
@@ -203,7 +206,6 @@ export default function Homepage() {
                 <p className="content">{t("s-courses-second-title")} </p>
                 <h3 className="main bold">{t("s-courses-second-name")}</h3>
               </div>
-
             </Grid>
             <Grid className="courseItem" item xs={12} sm={6} md={3} >
               <div className="w-100 courseImg">
@@ -235,11 +237,11 @@ export default function Homepage() {
           <div className="shadow">
             <h1>
               <Fade top>
-                Moliya-bank xodimlarini malakasini oshirish, qayta tayyorlash tarmoqlararo instituti
+                {t("s-about-content")}
               </Fade>
             </h1>
             <AnchorLink className="main" href='#contact'>
-              <button className="call-us">Bog'lanish</button>
+              <button className="call-us">{t("boglanish")}</button>
             </AnchorLink>
           </div>
         </div>
@@ -251,18 +253,19 @@ export default function Homepage() {
               <div className="right"></div>
             </div>
             <p className="smallHeader">
-              Aloqa
+              {t("contacts")}
             </p>
             <div className="d-flex justify-between align-center">
-              <p className="aboutContent main">Biz bilan bog'laning</p>
-              {/* <button className="callUs">Bo kurslar</button> */}
+              <p className="aboutContent main">{t("s-contacts-contactus")}</p>
             </div>
           </div>
           <div className="contacts-main d-flex justify-between align-center">
             <div className="left">
-              <h4 className="main">Bog'lanish</h4>
+              <h4 className="main">
+                {t("contacts")}
+              </h4>
               <p>
-                Agarda kurslarimiz sizni qiziqtirsa biz bilan aloqaga chiqing.
+                {t("s-contacts-content")}
               </p>
 
               <ul>
@@ -308,11 +311,12 @@ export default function Homepage() {
               <div className="right"></div>
             </div>
             <p className="smallHeader">
-              Hamkorlar
+              {t("s-partners-partners")}
             </p>
             <div className="d-flex justify-between align-center">
-              <p className="aboutContent main">Hamkorlarimiz</p>
-              {/* <button className="callUs">Bo kurslar</button> */}
+              <p className="aboutContent main">
+                {t("s-partners-ourpartners")}
+              </p>
             </div>
           </div>
           <Swiper
@@ -352,34 +356,21 @@ export default function Homepage() {
 
               <h1 style={{ marginBottom: "15px" }}>Banktraining</h1>
               <p>
-                Tarmoqlararo institut Oʻzbekiston Respublikasi Prezidentining 2012 yil 28 maydagi PQ-1761-sonli
-                “Malakali pedagog kadrlar tayyorlash hamda oʻrta maxsus, kasb-hunar taʼlimi muassasalarini shunday
-                kadrlar bilan taʼminlash tizimini yanada takomillashtirishga oid chora-tadbirlash toʻgʻrisida” gi va
-                2017 yil 12 sentyabrdagi PQ-3270-sonli “Respublika bank tizimini yanada rivojlantirish va
-                barqarorligini oshirish chora-tadbirlari toʻgʻrisida”gi Qarorlari, Oʻzbekiston Respublikasi
-                Vazirlar Mahkamasining 2006 yil 16 fevraldagi 25-sonli “Pedagog kadrlarni qayta tayyorlash
-                va ularning malakasini oshirish tizimini yanada takomillashtirish toʻgʻrisida”gi,  2012 yil
-                10 avgustdagi 242-sonli “Oʻrta maxsus, kasb-hunar taʼlimi muassasalari rahbar va pedagogik
-                kadrlarining malakasini oshirish va ularni qayta tayyorlash tizimini yanada takomillashtirishga
-                doir chora-tadbirlar toʻgʻrisida”gi Qarorlari va Oʻrta maxsus, kasb-hunar taʼlimi Markazining
-                2017 yil 27 dekabrdagi 689-sonli “Oʻrta maxsus, kasb-hunar taʼlim muassasalari rahbar va pedagog
-                kadrlari
-                malakasini oshirish va qayta tayyorlashning 2018 yil reja koʻrsatkichlarini tasdiqlash
-                toʻgʻrisida”gi buyruqlariga hamda Oʻzbekiston Respublikasi Markaziy banki va Oʻzbekiston
-                banklari Assotsiatsiyasi tomonidan tasdiqlangan “2018 yilda bank xodimlari uchun oʻquv
-                kurslar va seminarlarni oʻtkazish jadvaliga”, Oʻzbekiston Respublikasi valyuta birjasi
-                bilan 2018 yilning 19 sentyabrida oʻzaro hamkorlik toʻgʻrisida memorandumga asosan malaka
-                oshirish kurslarini tashkil qildi.
+                {t("s-footer-content")}
               </p>
 
-              <p className="followUs">Ijtmoiy tarmoqlarda bizni kuzatib boring</p>
+              <p className="followUs">
+                {t("s-footer-followus")}
+              </p>
               <ul className="d-flex">
                 <a style={{ color: "white" }} title="https://t.me/banktraining" href="https://t.me/banktraining"><li className="d-flex align-center justify-center"><TelegramIcon /></li></a>
               </ul>
             </div>
             <div className="right">
-              <p className="followUs">Aloqa </p>
-              <a href="https://goo.gl/maps/QVf1yMKz8Pj4z9XF6" target="_blank">100000 Toshkent shahri A.Temur ko'chasi 60A</a>
+              <p className="followUs">
+                {t("contacts")}
+              </p>
+              <a href="https://goo.gl/maps/QVf1yMKz8Pj4z9XF6" target="_blank">{t("address")}</a>
               <a href="mailto: bank.training@mail.ru"> bank.training@mail.ru</a>
               <a href="tel:998951461100 ">+(998)95 146-11-00</a>
               <a href="tel: 998712343303 ">+(998)71 234-33-03</a>

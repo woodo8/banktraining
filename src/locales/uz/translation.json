@@ -3,7 +3,7 @@
     "Dovudbek": "Dovudbek",
     "gallery": "Galereya",
     "about": "Biz haqimizda",
-    "courses": "Kusrlar",
+    "courses": "Kurslar",
     "contacts": "Aloqa",
     "certificates": "Sertifikatlar",
     "login": "Login",
@@ -26,5 +26,17 @@
     "s-courses-third-name": "Tijorat banklari ichki nazorat hizmati faoliyatida sanksiyalarga muvofiqlikni ta'minlashdagi dolzarb masalalar",
     "s-courses-fourth-title": "Buxgalteriya",
     "s-courses-fourth-name": "Buxgalteriya hisobining xalqaro standartlari(MSFO 9)",
-    "batafsil": "To'liq ma'lumot olish"
+    "batafsil": "To'liq ma'lumot olish",
+    "s-contacts-contactus": "Biz bilan bog'laning",
+    "s-contacts-content": "Agarda kurslarimiz sizni qiziqtirsa biz bilan aloqaga chiqing.",
+    "s-partners-partners": "Hamkorlar",
+    "s-partners-ourpartners": "Hamkorlarimiz",
+    "s-footer-content": "Tarmoqlararo institut Oʻzbekiston Respublikasi Prezidentining 2012 yil 28 maydagi PQ-1761-sonli “Malakali pedagog kadrlar tayyorlash hamda oʻrta maxsus, kasb-hunar taʼlimi muassasalarini shunday kadrlar bilan taʼminlash tizimini yanada takomillashtirishga oid chora-tadbirlash toʻgʻrisida” gi va 2017 yil 12 sentyabrdagi PQ-3270-sonli “Respublika bank tizimini yanada rivojlantirish va barqarorligini oshirish chora-tadbirlari toʻgʻrisida”gi Qarorlari, Oʻzbekiston Respublikasi Vazirlar Mahkamasining 2006 yil 16 fevraldagi 25-sonli “Pedagog kadrlarni qayta tayyorlash va ularning malakasini oshirish tizimini yanada takomillashtirish toʻgʻrisida”gi, 2012 yil 10 avgustdagi 242-sonli “Oʻrta maxsus, kasb-hunar taʼlimi muassasalari rahbar va pedagogik kadrlarining malakasini oshirish va ularni qayta tayyorlash tizimini yanada takomillashtirishga doir chora-tadbirlar toʻgʻrisida”gi Qarorlari va Oʻrta maxsus, kasb-hunar taʼlimi Markazining 2017 yil 27 dekabrdagi 689-sonli “Oʻrta maxsus, kasb-hunar taʼlim muassasalari rahbar va pedagog kadrlari malakasini oshirish va qayta tayyorlashning 2018 yil reja koʻrsatkichlarini tasdiqlash toʻgʻrisida”gi buyruqlariga hamda Oʻzbekiston Respublikasi Markaziy banki va Oʻzbekiston banklari Assotsiatsiyasi tomonidan tasdiqlangan “2018 yilda bank xodimlari uchun oʻquv kurslar va seminarlarni oʻtkazish jadvaliga”, Oʻzbekiston Respublikasi valyuta birjasi bilan 2018 yilning 19 sentyabrida oʻzaro hamkorlik toʻgʻrisida memorandumga asosan malaka oshirish kurslarini tashkil qildi.",
+    "s-footer-followus": "Ijtimoiy tarmoqlarda bizni kuzatib boring",
+    "address": "100000 Toshkent shahri A.Temur ko'chasi 60A",
+    "search":"Izlash",
+    "cert-loading":"Sertifikat yuklanmoqda",
+    "id-search":"Id bo'yicha izlash",
+    "download":"Yuklab olish",
+    "fotolavhalar":"Kurslardan fotolavhalar"
 }

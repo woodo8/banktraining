@@ -12,6 +12,7 @@ import { PDFReader } from 'reactjs-pdf-reader';
 import DownloadIcon from '@mui/icons-material/Download';
 import { NavbarUser, NavbarUserMobile } from '../../components/navbarUser/NavbarUser';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function CertficatesUser() {
   const { loggedIn } = useContext(StateContext)
@@ -28,6 +29,7 @@ export default function CertficatesUser() {
     setInnerWidth(window.innerWidth)
   }, [window.innerWidth])
 
+  const { t } = useTranslation()
 
   const searchCertificate = () => {
     try {
@@ -71,18 +73,18 @@ export default function CertficatesUser() {
         >
           {!notFound &&
             <button className='callUs downloadUser d-flex align-center' onClick={downloadCertificate}>
-              {innerWidth > 400 && "Yuklab olish"} <DownloadIcon style={{ marginLeft: innerWidth > 400 ? "10px" : "0" }} />
+              {innerWidth > 400 && t("download")} <DownloadIcon style={{ marginLeft: innerWidth > 400 ? "10px" : "0" }} />
             </button>}
         </Grid>
       </Grid>
       <div className="mainComp">
         <Grid container>
           <Grid className="d-flex justify-between align-center d-sm-block" item xs={12}>
-            <p className="headerText main">Id bo'yicha izlash</p>
+            <p className="headerText main">{t("id-search")}</p>
           </Grid>
           <Grid className="d-flex justify-between align-center" item xs={12} xsOffset={0} md={6} mdOffset={3}>
             <input value={certId} onChange={(e) => setCertId(e.target.value)} className='searchInput' type="text" />
-            <button onClick={searchCertificate} className="callUs">Izlash</button>
+            <button onClick={searchCertificate} className="callUs">{t("search")}</button>
           </Grid>
           {
             loader &&
@@ -97,7 +99,7 @@ export default function CertficatesUser() {
                 glassColor='#c0efff'
                 color='#34438e'
               />
-              <p>Sertifikat yuklanmoqda...</p>
+              <p>{t("cert-loading")}</p>
             </Grid>
           }
 
