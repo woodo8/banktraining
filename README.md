@@ -21,4 +21,3 @@ Frontend:
 Backend;
     - Java 
     - Spring
-    (as far as i know)))
